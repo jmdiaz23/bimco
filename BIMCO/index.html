@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BIMCO S.A.S.</title>
+    <link rel="shortcut icon" href="img/#" type="image/x-icon">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/fancyzoom.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    
+    <script src="js/jquery.fancyzoom.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav data-scroll-header>
+            <a data-scroll href="#sec-1">Inicio</a>
+            <a data-scroll href="#sec-2">Quienes Somos</a>
+            <a data-scroll href="#sec-3">Proyectos</a>
+            <a data-scroll href="#sec-4">Equipo</a>
+            <a data-scroll href="#sec-5">Servicios</a>
+            <a data-scroll href="#sec-6">Contacto</a>
+        </nav>
+        <script>
+            var scroll = new SmoothScroll('.some-selector',{
+		    header: '[data-scroll-header]'
+	        });
+        </script>
+        <section class="textos-header">
+            <h1>BIMCO S.A.S.</h1>
+            <h2>Somos pioneros en la implementacion del modelo BIM</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" id="sec-1"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">¿Quiénes Somos?</h2>
+            <div class="contenedor-sobre-nosotros" id="sec-2">
+                <img src="img/team.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>En Colombia</h3>
+                    <p>Es una empresa pionera en la implementacion del modelo BIM cuyos servicios brindan la 
+                        posibilidad de integrar los procesos de diseños, control y ejecución de
+                        Construcción.</p>
+                    <h3><span>2</span>Los sistemas que componen</h3>
+                    <p>Los diferentes lo componen la etapa de diseño, minimizando los costos por errores
+                        contructivos y los tiempos de ejecución. </p>
+                </div>
+            </div>
+            <div class="social-bar">
+                <a href="https://www.facebook.com/#" class="icon icon-facebook" target="_blank"></a>
+                <a href="https://twitter.com/#" class="icon icon-twitter" target="_blank"></a>
+                <a href="https://www.youtube.com/#" class="icon icon-youtube" target="_blank"></a>
+                <a href="https://www.instagram.com/#" class="icon icon-instagram" target="_blank"></a>
+              </div>
+        </section>
+        
+        <section class="portafolio">
+
+             
+            <div class="contenedor" id="sec-3">
+                <h2 class="titulo">Proyectos</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <!-- <a href="img/big.jpg" class="fancy"><img src="img/small.jpg"></a>-->
+                        <img src="img/img1.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img2.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img3.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img1.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img4.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img5.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img6.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img7.jpg" alt="" class="zoom">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+        </section>
+        <section class="equipo">
+            <div class="contenedor" id="sec-4">
+                <h2 class="titulo">Nuestro Equipo</h2>
+                <div class="servicio-cont">
+                    <div class="equipo-ind">
+                        <img src="#" alt="" class="zoom">
+                        <h3>Nombre Completo</h3>
+                        <p class="centrar">Cargo</p>
+                    </div>
+                    <div class="equipo-ind">
+                        <img src="#" alt="" class="zoom">
+                        <h3>Nombre Completo</h3>
+                        <p class="centrar">Cargo</p>
+                    </div>
+                    <div class="equipo-ind">
+                        <img src="#" alt="" class="zoom">
+                        <h3>Nombre Completo</h3>
+                        <p class="centrar">Cargo</p>
+                    </div>
+                    <div class="equipo-ind">
+                        <img src="#" alt="" class="zoom">
+                        <h3>Nombre Completo</h3>
+                        <p class="centrar">Cargo</p>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+            <div class="contenedor">
+                <div class="servicio-cont">
+                    <div class="equipo-ind">
+                        <img src="#" alt="" class="zoom">
+                        <h3>Nombre Completo</h3>
+                        <p class="centrar">Cargo</p>
+                    </div>
+                    <div class="equipo-ind">
+                        <img src="#" alt="" class="zoom">
+                        <h3>Nombre Completo</h3>
+                        <p class="centrar">Cargo</p>
+                    </div>
+                    <div class="equipo-ind">
+                        <img src="#" alt="" class="zoom">
+                        <h3>Nombre Completo</h3>
+                        <p class="centrar">Cargo</p>
+                    </div>
+            </div>
+            
+
+
+        </section>
+        <!--  
+        <section class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Name</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/face2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Name</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <section class="about-services">
+            <div class="contenedor" id="sec-5">
+                <h2 class="titulo">Nuestros Servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion.jpg" alt="">
+                        <h3>Metodología BIM</h3>
+                        <p>-Diseño estructural, hidrosanitario y eléctrico integrado en un entorno BIM</p>
+                        <p>-Implementación de la metodología BIM en proyectos constructivos</p>
+                        <p>-Rendering y generación de detalles constructivos.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion-1.jpg" alt="">
+                        <h3>Ingenieria Estructural</h3>
+                        <p>-Analisís y diseño estructural</p>
+                        <p>-Patologia y reparación y reforzamiento</p>
+                        <p>-Vulnerabilidad estructural.</p>
+                        <p>Pruebas de carga.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion.jpg" alt="">
+                        <h3>Construcción y Dirección de obras</h3>
+                        <p>Dirección, administración y control de obras de infraestrutura con metodologia BIM</p>
+                        <P>Consultoria especializada.</P>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer" id="sec-6">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>8296312</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>example@example.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Santa Marta</p>
+            </div>
+            
+        </div>
+        <p class="titulo-final">&copy; BIMCO | 2019</p>
+        
+    </footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
